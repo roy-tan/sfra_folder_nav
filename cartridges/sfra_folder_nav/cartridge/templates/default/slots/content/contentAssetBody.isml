@@ -1,9 +1,0 @@
-<isif condition="${slotcontent != null}">
-	<isloop items="${slotcontent.content}" var="contentAsset">
-		<div>
-    	<!-- dwMarker="content" dwContentID="${contentAsset.UUID}" -->
-		<isprint value="${contentAsset.custom.body}" encoding="off">
-		<!-- END_dwmarker -->
-		</div>
-	</isloop>
-</isif>
